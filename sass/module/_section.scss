@@ -1,0 +1,27 @@
+.section{
+	padding: 85px 0;
+	background-color: #fff;
+	position: relative;
+}
+
+.section-title{
+	@include clearfix;
+	text-transform: uppercase;
+	h1{
+		float: left;
+		width: 180px;
+		margin: 6px 0 0 0;
+		padding: 0 20px 0 0;
+
+		text-align: right;
+		color: #000;
+		line-height: 45px;
+		
+		border-right: 4px solid $color;
+	}
+	p{
+		float: right;
+		width: 950px;
+		margin: 0;
+	}
+}
