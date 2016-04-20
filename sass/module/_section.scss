@@ -2,9 +2,25 @@
 	padding: 85px 0;
 	background-color: #fff;
 	position: relative;
+	&:before, &:after{
+		content: '';
+		display: block;
+		background-color: #FFF;
+		position: absolute;
+		top:0; left: 0; right: 0; bottom:0;
+		z-index: 4;
+
+		@include transform-origin(0,0);
+		@include transform(skewY(-2deg));
+	}
+	&:after{
+		background-color: #fff;
+		@include transform-origin(100%,0);
+	}
 }
 
 .section-title{
+	margin-bottom: 140px;
 	@include clearfix;
 	text-transform: uppercase;
 	h1{

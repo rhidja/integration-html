@@ -1,0 +1,27 @@
+.about{
+	text-transform: uppercase;
+}
+
+.about-icon{
+	width: 125px;
+	height: 125px;
+ 	float: left;
+	margin-right: 30px;
+
+	text-align: center;
+	line-height: 110px;
+
+	border: 2px solid $color;
+	border-radius: 125px;
+}
+
+.about-text{
+	width: 565px;
+	float: left;
+	padding-right: 30px;
+}
+
+.about-picture{
+	width: 450px;
+	float: left;
+}
