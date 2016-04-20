@@ -37,3 +37,51 @@ hr{
 }
 
 .cb{ clear:both; }
+
+.quote{
+
+}
+
+.quote-text{
+	display: inline-block;
+	position: relative;
+	padding: 0 55px;
+
+	font-size: 45px;
+	line-height: 60px;
+	font-weight: bold;
+	&:before, &:after{
+		width: 55px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: center;
+	}
+	&:before{ content: '"'; }
+	&:after{ 
+ 		left: auto; 
+		right: 0; 
+		content: '"'; 
+	}
+}
+
+.quote-author{
+	font-size: 24px;
+	position: relative;
+	padding-top: 25px;
+	font-style: normal;
+	text-transform: uppercase;
+	&:after{
+		content: '';
+		display: block;
+
+		position: absolute;
+		top:0;
+		left: 50%;
+		margin-left: -25px;
+
+		width: 50px;
+		height: 4px;
+		background-color: $color;
+	}
+}
