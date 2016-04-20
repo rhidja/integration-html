@@ -1,0 +1,20 @@
+.progress{
+	margin-bottom: 30px;
+	
+	&-title{
+		line-height: 40px;
+		strong{ color : #000; }
+		text-transform: uppercase;
+	}
+
+	&-bar{
+		height: 10px;
+		background-color: #e6e6e6;
+		position: relative;
+		span{
+			position: absolute;
+			top: 0; bottom: 0; left: 0;
+			background-color: $color;
+		}
+	}
+}

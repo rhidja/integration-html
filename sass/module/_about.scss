@@ -1,5 +1,5 @@
 .about{
-	
+	@include clearfix;
 }
 
 .about-icon{
@@ -15,6 +15,12 @@
 	border-radius: 125px;
 }
 
+.about-alert{
+	font-size: 20px;
+	color:#e74c3c;
+	line-height: 28px;
+}
+
 .about-text{
 	width: 565px;
 	float: left;
@@ -24,4 +30,17 @@
 .about-picture{
 	width: 450px;
 	float: left;
+}
+
+.about-2{
+	.about-picture{
+		width: 610px;
+		float: left;
+	}
+
+	.about-text{
+		width: 560px;
+		float: right;
+	}
+
 }
