@@ -87,16 +87,13 @@
 
 .item-footer{
 	border: 1px solid #e6e6e6;
-	padding: 20px;
+	padding: 35px;
 	background: #fafafa;
-}
-
-.btn-purchase{
-	border: 2px solid $color;
-	width: 130px;
-	height: 40px;
-	line-height: 35px;
-	margin: auto;
-	color: #000;
-	font-weight: bold;
+	a{
+		border: 2px solid $color;
+		padding: 10px 30px;
+		margin: auto;
+		color: #000;
+		font-weight: bold;
+	}
 }
