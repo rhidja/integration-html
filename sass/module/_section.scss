@@ -61,3 +61,13 @@
 	background: url(img/bg1.jpg) center top fixed;
 	@include background-size(cover);	
 }
+
+.section-testimonial{
+	padding: 200px 0;
+
+	text-align: center;
+	color: #fff;
+
+	background: url(img/bg1.jpg) center top fixed;
+	@include background-size(cover);	
+}
