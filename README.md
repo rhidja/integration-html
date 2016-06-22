@@ -1,6 +1,6 @@
 # integration-html
 
-Intégration html de la maquette min de métro theme 
+Intégration html, css(scss) de la maquette mini de métro theme 
 
 https://dribbble.com/shots/1424830-Freebie-PSD-MINI-OnePage-Creative-Template
 
