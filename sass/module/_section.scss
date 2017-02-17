@@ -71,3 +71,13 @@
 	background: url(img/akbou.png) center top fixed;
 	@include background-size(cover);
 }
+
+.section-tweets{
+	padding: 200px 0;
+
+	text-align: center;
+	color: #fff;
+
+	background: url(img/akbou.png) center top fixed;
+	@include background-size(cover);
+}
