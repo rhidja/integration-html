@@ -32,7 +32,7 @@
 		text-align: right;
 		color: #000;
 		line-height: 45px;
-		
+
 		border-right: 4px solid $color;
 	}
 	p{
@@ -48,7 +48,7 @@
 	text-align: center;
 	color: #fff;
 
-	background: url(img/bg1.jpg) center top fixed;
+	background: url(img/akbou.png) center top fixed;
 	@include background-size(cover);
 }
 
@@ -58,8 +58,8 @@
 	text-align: center;
 	color: #fff;
 
-	background: url(img/bg1.jpg) center top fixed;
-	@include background-size(cover);	
+	background: url(img/akbou.png) center top fixed;
+	@include background-size(cover);
 }
 
 .section-testimonial{
@@ -68,6 +68,6 @@
 	text-align: center;
 	color: #fff;
 
-	background: url(img/bg1.jpg) center top fixed;
-	@include background-size(cover);	
+	background: url(img/akbou.png) center top fixed;
+	@include background-size(cover);
 }
