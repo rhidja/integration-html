@@ -7,7 +7,7 @@ css_dir = "assets/css"
 sass_dir = "sass"
 images_dir = "assets/img"
 javascripts_dir = "assets/js"
-http_generated_images_path = "../assets/img"
+http_generated_images_path = "../img"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
