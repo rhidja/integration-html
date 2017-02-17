@@ -1,4 +1,5 @@
 MINI/*
 .sass-cache/
-css/
+assets/vendor/*
+assets/css/*
 psd/
