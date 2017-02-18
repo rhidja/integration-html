@@ -1,8 +1,22 @@
 .btn{
 	display: inline-block;
 	padding: 0 40px;
-	background-color: $color;
+	background-color: rgba($color,0);
+	border: 2px solid #FFF;
 	font-size: 15px;
+	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 40px;
+	@include transition-duration ;
+	&:hover{
+		background-color: $color;
+		border-color: $color;
+		color: #FFF;
+	}
+}
+
+.btn-primary{
+	border-color: $color;
+	color: #000;
+	font-weight: bold;
 }
