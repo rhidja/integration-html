@@ -1,0 +1,41 @@
+.posts{
+    margin: 0 -30px;
+}
+.post{
+    float: left;
+    margin: 0 30px;
+    width: 555px;
+    height: 510px;
+    position: relative;
+}
+
+.post-thumb{
+    width: 555px;
+    height: 300px;
+}
+
+.post-content{
+    position: absolute;
+    padding: 20px;
+    top: 240px;
+    right: 0;
+    width: 445px;
+    background-color: #fff;
+    text-align: justify;
+}
+
+.post-icon{
+    width: 44px;
+    height: 44px;
+    border-color: $color;
+    position: absolute;
+    right: 445px;
+    top: 256px;
+}
+
+.post-meta{
+    font-style: 14px;
+    padding-top: 20px;
+    width: 100px;
+    text-align: right;
+}
