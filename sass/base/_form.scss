@@ -1,0 +1,25 @@
+input, textarea, button{
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.form-input{
+    width: 100%;
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 0 30px;
+    height: 45px;
+    border: 2px solid #d9d9d9;
+    @include transition-duration;
+    &:focus{
+        border-color: $color;
+    }
+}
+
+.form-textarea{
+    @extend .form-input;
+    height: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -7,6 +7,7 @@ $default-transition-duration : 0.3s;
 $color: #f39c12;
 
 @import "base/base";
+@import "base/form";
 
 @import "layout/grid";
 
@@ -24,3 +25,4 @@ $color: #f39c12;
 @import "module/slider";
 @import "module/tweets";
 @import "module/posts";
+@import "module/contact-form";
