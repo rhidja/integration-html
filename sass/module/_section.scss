@@ -81,3 +81,15 @@
 	background: url(img/akbou.png) center top fixed;
 	@include background-size(cover);
 }
+
+.section-clients{
+	padding: 200px 0;
+
+	text-align: center;
+	color: #fff;
+	h1{
+		margin-bottom: 50px;		
+	}
+	background: url(img/akbou.png) center top fixed;
+	@include background-size(cover);
+}
