@@ -1,10 +1,11 @@
 .btn{
 	display: inline-block;
 	padding: 0 40px;
+	background-color: transparen;
 	background-color: rgba($color,0);
-	border: 2px solid #FFF;
+	border: 2px solid $color;
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 40px;
 	@include transition-duration ;
@@ -13,10 +14,4 @@
 		border-color: $color;
 		color: #FFF;
 	}
-}
-
-.btn-primary{
-	border-color: $color;
-	color: #000;
-	font-weight: bold;
 }

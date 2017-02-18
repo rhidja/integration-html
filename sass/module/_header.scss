@@ -6,6 +6,11 @@
 
 	background: url(img/akbou-flou.png) center top fixed;
 	@include background-size(cover);
+
+	.btn{
+		color: #FFF;
+		border-color: #FFF;
+	}
 }
 
 .header-logo{
